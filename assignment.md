@@ -5,6 +5,7 @@
   * There are ten digits in the Base 10 numbering system.
   * We have all learned to count in Base 10.
   * As humans, we are comfortable in performing mathematical operations in base 10.
+
 In COMP122, we will be learning about computer architecture and assembly languages. A key component in using these systems is knowing various numbering systems and data representations. For example, we will be learning about base 2, base 8, base 16, and base 64 within this class.
 
 On a computer system, we need to perform basic mathematical operations. The operations are not performed in base 10, but in base 2. That is to say that a computer system uses binary numbers in all of its computations. Moreover, we are limited in the size of the numbers that can be used within our calculations.
@@ -18,114 +19,214 @@ While completing this exercise, pay attention to the algorithm or process you us
 ### Due Date: 
 ### Directions: See the README.md file.
 ---
-## Name:                                <!-- answer -->
-## GitHub Account:                      <!-- answer -->
+### Name:                                <!-- answer -->
+### GitHub Account:                      <!-- answer -->
 
-### Section One
-1. Addition of Whole Numbers
-  1. Perform the following additions.
-  1. Show your work by replacing each 'x' with the appropriate character
+#### Section 1: Addition of Whole Numbers
+   1. Perform the following additions.
+   1. Show your work by replacing each 'x' with the appropriate character.
 
-  * 13 + 5
+   * 13 + 5
    ```
-     xxx0              <!-- answer -->
-     xxxx              <!-- answer -->
-   + xxxx              <!-- answer -->
-   ------
-     xxxx              <!-- answer -->
+         xxx0              <!-- answer -->
+         xxxx              <!-- answer -->
+       + xxxx              <!-- answer -->
+       ------
+         xxxx              <!-- answer -->
+   ```
+ 
+   * 13 + 8
+   ```
+         xxx0              <!-- answer -->
+         xxxx              <!-- answer -->
+       + xxxx              <!-- answer -->
+       ------
+         xxxx              <!-- answer -->
+   ```
+ 
+   * 1345 + 655
+   ```
+         xxx0              <!-- answer -->
+         xxxx              <!-- answer -->
+       + xxxx              <!-- answer -->
+       ------
+         xxxx              <!-- answer -->
+   ```
+ 
+   * 5676 + 4334
+   ```
+         xxx0              <!-- answer -->
+         xxxx              <!-- answer -->
+       + xxxx              <!-- answer -->
+       ------
+         xxxx              <!-- answer -->
+   ```
+ 
+#### Section 2: Addition of Fix Point Numbers
+   1. Perform the following additions.
+   1. Show your work by replacing each 'x' with the appropriate character.
+
+   * 13.5 + 5.0
+   ```
+        xxxx.xxxx              <!-- answer -->
+        xxxx.xxxx              <!-- answer -->
+      + xxxx.xxxx              <!-- answer -->
+      -----------
+        xxxx.xxxx              <!-- answer -->
+   ```
+ 
+   * 45.67 + 0.8
+   ```
+        xxxx.xxxx              <!-- answer -->
+        xxxx.xxxx              <!-- answer -->
+      + xxxx.xxxx              <!-- answer -->
+      -----------
+        xxxx.xxxx              <!-- answer -->
+   ```
+ 
+   * 134.5 + 0.655
+   ```
+        xxxx.xxxx              <!-- answer -->
+        xxxx.xxxx              <!-- answer -->
+      + xxxx.xxxx              <!-- answer -->
+      -----------
+        xxxx.xxxx              <!-- answer -->
+   ```
+ 
+   * 566.76 + 4334.0
+   ```
+        xxxx.xxxx              <!-- answer -->
+        xxxx.xxxx              <!-- answer -->
+      + xxxx.xxxx              <!-- answer -->
+      -----------
+        xxxx.xxxx              <!-- answer -->
    ```
 
-  * 13 + 8
-   ```
-     xxx0              <!-- answer -->
-     xxxx              <!-- answer -->
-   + xxxx              <!-- answer -->
-   ------
-     xxxx              <!-- answer -->
-   ```
+#### Section 3: Ten's Complement[^1]
+[^1]: Also known as a radix complement for Base10.
 
-  * 1345 + 655
-   ```
-     xxx0              <!-- answer -->
-     xxxx              <!-- answer -->
-   + xxxx              <!-- answer -->
-   ------
-     xxxx              <!-- answer -->
-   ```
+```
+Complement: a thing that completes or brings to perfection
+```
+In mathematics, two numbers are said to be complements if by adding them together you obtain a number that is a power of ten: 0, 10, 100, 100, etc. For example, the ten's complement of 25 with respect to 100 is 75 (25 + 75 = 100).
 
-  * 5676 + 4334
-   ```
-     xxx0              <!-- answer -->
-     xxxx              <!-- answer -->
-   + xxxx              <!-- answer -->
-   ------
-     xxxx              <!-- answer -->
-   ```
+  1. Calculate the complement of the following numbers _with respect to_ 10:
+     * 3:                  <!-- answer -->
+     * 5:                  <!-- answer -->
+     * 6:                  <!-- answer -->
+     * 9:                  <!-- answer -->
+  
+  1. Calculate the complement of the following numbers _with respect to_ 100:
+     * 33:                 <!-- answer -->
+     * 65:                 <!-- answer -->
+     * 82:                 <!-- answer -->
+     * 3:                  <!-- answer -->
+  
+  1. Calculate the complement of the following numbers:
+     * 23:                 <!-- answer -->
+     * 345:                <!-- answer -->
+     * 3453:               <!-- answer -->
+     * 5638:               <!-- answer -->
+  
+  When we are not given the sum of the two numbers, it is defined to be the   smallest power of 10 larger than both the complements.  For example, when   providing the complement of 654, we presume that this is _with respect to_ 1000.
 
-1. Addition of Fix Point Numbers
-  1. Perform the following additions.
-  1. Show your work by replacing each 'x' with the appropriate character
+#### Section 4: Nine's Complement[^2]
+[^2]: Also know as the diminished radix complement for Base 10.
 
-  * 13.5 + 5.0
-   ```
-     xxxx.xxxx              <!-- answer -->
-     xxxx.xxxx              <!-- answer -->
-   + xxxx.xxxx              <!-- answer -->
-   ------
-     xxxx.xxxx              <!-- answer -->
-   ```
+The nine's complement of a decimal digit is the number that must be added to produce 9.  Whereas the nine's complement of a three digit number is that number that must be added to it to produce 999.
 
-  * 45.67 + 0.8
-   ```
-     xxxx.xxxx              <!-- answer -->
-     xxxx.xxxx              <!-- answer -->
-   + xxxx.xxxx              <!-- answer -->
-   ------
-     xxxx.xxxx              <!-- answer -->
-   ```
+  1. Provide the 9's complement of the following numbers:
+     * 3:                  <!-- answer -->
+     * 5:                  <!-- answer -->
+     * 6:                  <!-- answer -->
+     * 9:                  <!-- answer -->
+  
+  1. Provide the 9's complement of the following numbers:
+     * 33:                 <!-- answer -->
+     * 65:                 <!-- answer -->
+     * 82:                 <!-- answer -->
+     * 3:                  <!-- answer -->
+  
+  1. Provide the 9's complement of the following numbers:
+     * 23:                 <!-- answer -->
+     * 345:                <!-- answer -->
+     * 3453:               <!-- answer -->
+     * 5638:               <!-- answer -->
+  
 
-  * 134.5 + 0.655
-   ```
-     xxxx.xxxx              <!-- answer -->
-     xxxx.xxxx              <!-- answer -->
-   + xxxx.xxxx              <!-- answer -->
-   ------
-     xxxx.xxxx              <!-- answer -->
-   ```
 
-  * 566.76 + 4334.0
-   ```
-     xxxx.xxxx              <!-- answer -->
-     xxxx.xxxx              <!-- answer -->
-   + xxxx.xxxx              <!-- answer -->
-   ------
-     xxxx.xxxx              <!-- answer -->
-   ```
+#### Section 5: Scientific Notation
+Large and small numbers can be more consciously written using Scientific Notation. For example, the value of pi can be represented as:
+```
+  3.14159  x 10^ 0
+```
+This number represented in this form can be broken down into the following components
+  1. the sign: implicitly +
+  1. the whole part: 3
+  1. the radix: .   # also known as the decimal point
+  1. the mantissa part: 14159
+  1. the scientific-base: x 10^
+  1. the sign of the exponent:  implicitly +
+  1. the exponent: 1
 
-### Section Two
+The general pattern for writing this number out in textual form is as follows:
+```
+  s w.mmmmm x 10^ s eee
+```
+Represent the following numbers in using scientific notation using the pattern provided.
+
+   * 45.67
+     * + 4.56700 x 10^ + 001  <!-- answer -->
+
+   * 92,955,807  # Average distance between the Sun and the Earth in miles.
+
+     * s m.mmmmm x 10^ s eee  <!-- answer -->
+
+   * 602,221,407,600,000,000,000,000    # Avogadro constant
+
+     * s m.mmmmm x 10^ s eee  <!-- answer -->
+   
+   * 0.000,000,000,000,000,000,000,001,673,557,5 # Mass of an hydrogen atom 
+     * s m.mmmmm x 10^ s eee  <!-- answer -->
+
+
+### Section Three
 1. Did you read the overview of this assignment? 
    *                   <!-- answer -->
+
 1. Why was this exercise assigned to you by your Professor?
    *                   <!-- answer -->
+
 1. What is a natural number?
    *                   <!-- answer -->
+
 1. What is a whole number? A number without fractions.
    *                   <!-- answer -->
+
 1. What is an integer?
    *                   <!-- answer -->
+
 1. What is a real number? 
    *                   <!-- answer -->
+
 1. What is a complement?
    *                   <!-- answer -->
+
 1. What is a carry?
    *                   <!-- answer -->
+
 1. What is overflow?
    *                   <!-- answer -->
+
+1. When using scientific notation, with a particular pattern, is there the potential for a loss information or precision in the number?
+   *                   <!-- answer -->
+
 1. What is an exception?
    *                   <!-- answer -->
 
 
 
+---
 ### Appendix:
 * Example additions of 961 + 921 and 7236 + 4216 are provided as a template
 * Note that it is not possible to add 7236 and 4216 together with the space provided.
@@ -166,3 +267,6 @@ While completing this exercise, pay attention to the algorithm or process you us
      1452     # Note the sum is 11,452, but this
               # number overflowed the space provided.
    ```
+
+
+ 
