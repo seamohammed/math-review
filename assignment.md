@@ -19,8 +19,8 @@ While completing this exercise, pay attention to the algorithm or process you us
 ### Due Date: 
 ### Directions: See the README.md file.
 ---
-### Name:                                <!-- answer -->
-### GitHub Account:                      <!-- answer -->
+### Name:                                <!-- response -->
+### GitHub Account:                      <!-- response -->
 
 #### Section 1: Addition of Whole Numbers
    1. Perform the following additions.
@@ -28,38 +28,38 @@ While completing this exercise, pay attention to the algorithm or process you us
 
    * 13 + 5
    ```
-         xxx0              <!-- answer -->
-         xxxx              <!-- answer -->
-       + xxxx              <!-- answer -->
+         xxx0              <!-- response -->
+         xxxx              <!-- response -->
+       + xxxx              <!-- response -->
        ------
-         xxxx              <!-- answer -->
+         xxxx              <!-- response -->
    ```
  
    * 13 + 8
    ```
-         xxx0              <!-- answer -->
-         xxxx              <!-- answer -->
-       + xxxx              <!-- answer -->
+         xxx0              <!-- response -->
+         xxxx              <!-- response -->
+       + xxxx              <!-- response -->
        ------
-         xxxx              <!-- answer -->
+         xxxx              <!-- response -->
    ```
  
    * 1345 + 655
    ```
-         xxx0              <!-- answer -->
-         xxxx              <!-- answer -->
-       + xxxx              <!-- answer -->
+         xxx0              <!-- response -->
+         xxxx              <!-- response -->
+       + xxxx              <!-- response -->
        ------
-         xxxx              <!-- answer -->
+         xxxx              <!-- response -->
    ```
  
    * 5676 + 4334
    ```
-         xxx0              <!-- answer -->
-         xxxx              <!-- answer -->
-       + xxxx              <!-- answer -->
+         xxx0              <!-- response -->
+         xxxx              <!-- response -->
+       + xxxx              <!-- response -->
        ------
-         xxxx              <!-- answer -->
+         xxxx              <!-- response -->
    ```
  
 #### Section 2: Addition of Fix Point Numbers
@@ -68,38 +68,38 @@ While completing this exercise, pay attention to the algorithm or process you us
 
    * 13.5 + 5.0
    ```
-        xxxx.xxxx              <!-- answer -->
-        xxxx.xxxx              <!-- answer -->
-      + xxxx.xxxx              <!-- answer -->
+        xxxx.xxxx              <!-- response -->
+        xxxx.xxxx              <!-- response -->
+      + xxxx.xxxx              <!-- response -->
       -----------
-        xxxx.xxxx              <!-- answer -->
+        xxxx.xxxx              <!-- response -->
    ```
  
    * 45.67 + 0.8
    ```
-        xxxx.xxxx              <!-- answer -->
-        xxxx.xxxx              <!-- answer -->
-      + xxxx.xxxx              <!-- answer -->
+        xxxx.xxxx              <!-- response -->
+        xxxx.xxxx              <!-- response -->
+      + xxxx.xxxx              <!-- response -->
       -----------
-        xxxx.xxxx              <!-- answer -->
+        xxxx.xxxx              <!-- response -->
    ```
  
    * 134.5 + 0.655
    ```
-        xxxx.xxxx              <!-- answer -->
-        xxxx.xxxx              <!-- answer -->
-      + xxxx.xxxx              <!-- answer -->
+        xxxx.xxxx              <!-- response -->
+        xxxx.xxxx              <!-- response -->
+      + xxxx.xxxx              <!-- response -->
       -----------
-        xxxx.xxxx              <!-- answer -->
+        xxxx.xxxx              <!-- response -->
    ```
  
    * 566.76 + 4334.0
    ```
-        xxxx.xxxx              <!-- answer -->
-        xxxx.xxxx              <!-- answer -->
-      + xxxx.xxxx              <!-- answer -->
+        xxxx.xxxx              <!-- response -->
+        xxxx.xxxx              <!-- response -->
+      + xxxx.xxxx              <!-- response -->
       -----------
-        xxxx.xxxx              <!-- answer -->
+        xxxx.xxxx              <!-- response -->
    ```
 
 #### Section 3: Ten's Complement[^1]
@@ -111,22 +111,22 @@ Complement: a thing that completes or brings to perfection
 In mathematics, two numbers are said to be complements if by adding them together you obtain a number that is a power of ten: 0, 10, 100, 100, etc. For example, the ten's complement of 25 with respect to 100 is 75 (25 + 75 = 100).
 
   1. Calculate the complement of the following numbers _with respect to_ 10:
-     * 3:                  <!-- answer -->
-     * 5:                  <!-- answer -->
-     * 6:                  <!-- answer -->
-     * 9:                  <!-- answer -->
+     * 3:                  <!-- response -->
+     * 5:                  <!-- response -->
+     * 6:                  <!-- response -->
+     * 9:                  <!-- response -->
   
   1. Calculate the complement of the following numbers _with respect to_ 100:
-     * 33:                 <!-- answer -->
-     * 65:                 <!-- answer -->
-     * 82:                 <!-- answer -->
-     * 3:                  <!-- answer -->
+     * 33:                 <!-- response -->
+     * 65:                 <!-- response -->
+     * 82:                 <!-- response -->
+     * 3:                  <!-- response -->
   
   1. Calculate the complement of the following numbers:
-     * 23:                 <!-- answer -->
-     * 345:                <!-- answer -->
-     * 3453:               <!-- answer -->
-     * 5638:               <!-- answer -->
+     * 23:                 <!-- response -->
+     * 345:                <!-- response -->
+     * 3453:               <!-- response -->
+     * 5638:               <!-- response -->
   
   When we are not given the sum of the two numbers, it is defined to be the   smallest power of 10 larger than both the complements.  For example, when   providing the complement of 654, we presume that this is _with respect to_ 1000.
 
@@ -136,22 +136,22 @@ In mathematics, two numbers are said to be complements if by adding them togethe
 The nine's complement of a decimal digit is the number that must be added to produce 9.  Whereas the nine's complement of a three digit number is that number that must be added to it to produce 999.
 
   1. Provide the 9's complement of the following numbers:
-     * 3:                  <!-- answer -->
-     * 5:                  <!-- answer -->
-     * 6:                  <!-- answer -->
-     * 9:                  <!-- answer -->
+     * 3:                  <!-- response -->
+     * 5:                  <!-- response -->
+     * 6:                  <!-- response -->
+     * 9:                  <!-- response -->
   
   1. Provide the 9's complement of the following numbers:
-     * 33:                 <!-- answer -->
-     * 65:                 <!-- answer -->
-     * 82:                 <!-- answer -->
-     * 3:                  <!-- answer -->
+     * 33:                 <!-- response -->
+     * 65:                 <!-- response -->
+     * 82:                 <!-- response -->
+     * 3:                  <!-- response -->
   
   1. Provide the 9's complement of the following numbers:
-     * 23:                 <!-- answer -->
-     * 345:                <!-- answer -->
-     * 3453:               <!-- answer -->
-     * 5638:               <!-- answer -->
+     * 23:                 <!-- response -->
+     * 345:                <!-- response -->
+     * 3453:               <!-- response -->
+     * 5638:               <!-- response -->
   
 
 
@@ -176,53 +176,53 @@ The general pattern for writing this number out in textual form is as follows:
 Represent the following numbers in using scientific notation using the pattern provided.
 
    * 45.67
-     * + 4.56700 x 10^ + 001  <!-- answer -->
+     * + 4.56700 x 10^ + 001  <!-- response -->
 
    * 92,955,807  # Average distance between the Sun and the Earth in miles.
 
-     * s m.mmmmm x 10^ s eee  <!-- answer -->
+     * s m.mmmmm x 10^ s eee  <!-- response -->
 
    * 602,221,407,600,000,000,000,000    # Avogadro constant
 
-     * s m.mmmmm x 10^ s eee  <!-- answer -->
+     * s m.mmmmm x 10^ s eee  <!-- response -->
    
    * 0.000,000,000,000,000,000,000,001,673,557,5 # Mass of an hydrogen atom 
-     * s m.mmmmm x 10^ s eee  <!-- answer -->
+     * s m.mmmmm x 10^ s eee  <!-- response -->
 
 
 ### Section Three
 1. Did you read the overview of this assignment? 
-   *                   <!-- answer -->
+   *                   <!-- response -->
 
 1. Why was this exercise assigned to you by your Professor?
-   *                   <!-- answer -->
+   *                   <!-- response -->
 
 1. What is a natural number?
-   *                   <!-- answer -->
+   *                   <!-- response -->
 
 1. What is a whole number? A number without fractions.
-   *                   <!-- answer -->
+   *                   <!-- response -->
 
 1. What is an integer?
-   *                   <!-- answer -->
+   *                   <!-- response -->
 
 1. What is a real number? 
-   *                   <!-- answer -->
+   *                   <!-- response -->
 
 1. What is a complement?
-   *                   <!-- answer -->
+   *                   <!-- response -->
 
 1. What is a carry?
-   *                   <!-- answer -->
+   *                   <!-- response -->
 
 1. What is overflow?
-   *                   <!-- answer -->
+   *                   <!-- response -->
 
 1. When using scientific notation, with a particular pattern, is there the potential for a loss information or precision in the number?
-   *                   <!-- answer -->
+   *                   <!-- response -->
 
 1. What is an exception?
-   *                   <!-- answer -->
+   *                   <!-- response -->
 
 
 
@@ -240,7 +240,7 @@ Represent the following numbers in using scientific notation using the pattern p
    ------
      xxxx  (Sum Row)
    ```
-* Answer:
+* response:
    ```
      1000
      0961
@@ -258,7 +258,7 @@ Represent the following numbers in using scientific notation using the pattern p
    ------ 
      xxxx (Sum Row)
    ```
-* Answer:
+* response:
    ```
      0010
      7236
