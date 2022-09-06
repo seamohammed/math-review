@@ -59,7 +59,7 @@ While completing this exercise, pay attention to the algorithm or process you us
          5676              <!-- response -->
        + 4334              <!-- response -->
        ------
-         0010   Unable to complete         <!-- response -->
+         1010   Unable to complete         <!-- response -->
    ```
  
 #### Section 2: Addition of Fix Point Numbers
